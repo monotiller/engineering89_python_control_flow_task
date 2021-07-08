@@ -28,7 +28,7 @@ This simply keeps the code running until the user wants to exit
 
 Then the program simply checks what the user has typed against each one of the `if` statements and these will supply them with the required information:
 ```python
-while rating.strip().lower() != exit: # This will loop through the code below while exit has not been entered by the user
+while rating.strip().lower() != exit: # This will loop through the code below while exit has not been entered by the user.
     if rating.strip().lower() == "universal": # The strip() removes white spaces and the lower() makes it so that user input is formatted to match our list
         print("Everyone can watch")
     elif rating.strip().lower() == "pg":
